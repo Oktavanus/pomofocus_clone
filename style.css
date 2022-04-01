@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(231, 68, 68, 0.938);
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 253, 253);
+}
+
+nav {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  border-bottom: 0.1em solid rgba(153, 153, 153, 0.7);
+}
+
+nav .title {
+  font-weight: bold;
+  margin-right: 6em;
+}
+
+nav .icon img {
+  width: 1.4em;
+}
+
+nav .title h1 {
+  font-size: 1.2em;
+  margin-right: 9em;
+  color: rgb(255, 253, 253);
+}
+
+.button-container button {
+  background-color: rgb(228, 153, 153);
+  border: none;
+  padding: 0.5em 0.75em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  color: inherit;
+}
+
+main {
+  margin-top: 2em;
+  background-color: rgba(233, 220, 220, 0.171);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4em;
+  padding: 2em 4em;
+  line-height: 0.1;
+}
+
+main .sub-title a {
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0.8em;
+  color: rgb(227, 242, 255);
+  font-weight: bold;
+}
+
+main .sub-title a:nth-child(1) {
+  background-color: rgb(182, 75, 75);
+  border-radius: 0.3em;
+  padding: 0.3em 0.8em;
+}
+
+main .sub-title a:hover {
+  background-color: rgb(182, 75, 75);
+  border-radius: 0.3em;
+  padding: 0.3em 0.8em;
+}
+
+main .description p {
+  font-size: 6em;
+  color: rgb(255, 253, 253);
+  font-weight: bolder;
+}
+
+main .button-content button {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: rgb(218, 80, 80);
+  background-color: rgb(252, 252, 252);
+  border: none;
+  padding: 0.8em 2.5em;
+  border-radius: 0.2em;
+  box-shadow: 0 0.3em rgb(252, 252, 252, 0.6);
+  cursor: pointer;
+}
+
+.end-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.end-section .tagline-section {
+  margin-top: 0.8em;
+  line-height: 0.3em;
+}
+
+.end-section .tagline-section .line {
+  color: rgb(252, 252, 252, 0.6);
+}
+
+.end-section .start-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 66vh;
+  padding: 0.5em 0.8em;
+  border-bottom: 0.2em solid rgb(223, 217, 217);
+}
+
+.start-end a {
+  margin-top: 1em;
+}
+
+.start-end img {
+  width: 2em;
+}
+
+.button-end {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  border: 2px dotted white;
+  border-radius: 5px;
+  padding: 1.2em 2em;
+  background-color: rgba(63, 63, 63, 0.2);
+  cursor: pointer;
+}
+
+.button-end img {
+  width: 1em;
+}
+
+.button-end button {
+  border: none;
+  color: rgb(253, 253, 253, 0.6);
+  background-color: rgba(63, 63, 63, 0);
+  padding: 0.2em 0.5em;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .button-container {
+    margin-left: -9em;
+  }
+
+  .button-container button {
+    margin-right: 0.5em;
+  }
+}
